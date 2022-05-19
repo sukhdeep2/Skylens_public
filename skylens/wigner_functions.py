@@ -105,6 +105,9 @@ def wigner_3j_000(j_1,j_2,j_3,m_1,m_2,m_3):
 #     wj[x]*=0
     return np.real(wj)
 
+def log_factorial(n):
+    return loggamma(n+1)
+
 """
 Following are helper functions for a recursive algorithm implemented below in wig3j_recur.
 """
