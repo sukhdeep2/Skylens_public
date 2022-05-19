@@ -1,6 +1,6 @@
 # SkyLens
 
-This is a public version of the code used for calculations presented in Singh 2021. 
+This is a public version of the code used for calculations presented in [Singh 2021](https://arxiv.org/abs/2105.04548). 
 
 Dependencies
 
