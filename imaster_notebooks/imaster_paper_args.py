@@ -1,6 +1,6 @@
 import sys
 from skylens import *
-from survey_utils import *
+from skylens.survey_utils import *
 
 import seaborn as sns
 colors=sns.color_palette()
@@ -16,7 +16,7 @@ client=client_get(scheduler_info=scheduler_info)
 
 #set path to wigner-3j files.
 #Please see Gen_wig_m0.py and Gen_wig_m2.py to generate these files.
-wig_home='/verafs/scratch/phy200040p/sukhdeep/physics2/skylens/temp/'
+wig_home='/hildafs/projects/phy200040p/sukhdeep/physics2/skylens/temp/'
 wigner_files={}
 wigner_files[0]= wig_home+'dask_wig3j_l5000_w5000_0_reorder.zarr'
 wigner_files[2]= wig_home+'/dask_wig3j_l2200_w4400_2_reorder.zarr'
